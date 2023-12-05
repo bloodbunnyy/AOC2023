@@ -3,9 +3,6 @@
 # # ----------------------------
 # # PART 1
 # # ----------------------------
-
-from collections import deque  # double-ended queue
-from collections import deque
 total_points = 0
 
 with open("4scratchcards.txt", 'r') as file:
@@ -33,7 +30,6 @@ with open("4scratchcards.txt", 'r') as file:
                 else:
                     line_total = line_total * 2
         total_points += line_total
-
 
 print(total_points)
 
